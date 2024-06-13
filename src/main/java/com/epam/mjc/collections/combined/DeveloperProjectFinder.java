@@ -21,7 +21,7 @@ public class DeveloperProjectFinder {
             if (lengthComparison != 0) {
                 return lengthComparison;
             } else {
-                return project1.compareTo(project2);
+                return project2.compareTo(project1);
             }
         });
 
