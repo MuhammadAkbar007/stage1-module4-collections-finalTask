@@ -17,7 +17,7 @@ public class DeveloperProjectFinder {
         }
 
         devProjects.sort((project1, project2) -> {
-            int lengthComparison = Integer.compare(project1.length(), project2.length());
+            int lengthComparison = Integer.compare(project2.length(), project1.length());
             if (lengthComparison != 0) {
                 return lengthComparison;
             } else {
